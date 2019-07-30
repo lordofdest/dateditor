@@ -281,29 +281,21 @@
 	<link pattern="Weapongrp_ClassicAden.dat" file="weapongrp" version="kor_helios_p3" />
 	<link pattern="ZoneName_ClassicAden-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
 	<!-- TODO: new dats -->
-	<link pattern="Chargrp_Classic.dat" file="" version=""/>
-	<link pattern="ClassInfo_ClassicAden-ru.dat" file="" version=""/>
 	<link pattern="EnchantedItemSkills_Classic-ru.dat" file="" version=""/>
 	<link pattern="EnchantedItemSkills_ClassicAden-ru.dat" file="" version=""/>
-	<link pattern="EnchantedWeaponFlowEffectData_ClassicAden.dat" file="" version=""/>
-	<link pattern="ExceptionMinimapData_ClassicAden.dat" file="" version=""/>
 	<link pattern="GCShop_Classic.dat" file="" version=""/>
 	<link pattern="GCShop_ClassicAden.dat" file="" version=""/>
 	<link pattern="GeneralEffectName.dat" file="" version=""/>
 	<link pattern="LetterCollectData.dat" file="" version=""/>
 	<link pattern="LetterCollectData_Classic.dat" file="" version=""/>
 	<link pattern="LetterCollectData_ClassicAden.dat" file="" version=""/>
-	<link pattern="MinimapRegion_ClassicAden.dat" file="" version=""/>
-	<link pattern="MobSkillAnimgrp_ClassicAden.dat" file="" version=""/>
 	<link pattern="PvpbookRequiredItem_Classic.dat" file="" version=""/>
 	<link pattern="PvpbookRequiredItem_ClassicAden.dat" file="" version=""/>
 	<link pattern="RankingSystemData.dat" file="" version=""/>
 	<link pattern="RankingSystemData_Classic.dat" file="" version=""/>
 	<link pattern="RankingSystemData_ClassicAden.dat" file="" version=""/>
 	<link pattern="ReplaceSkillIcon_Classic.dat" file="" version=""/>
-	<link pattern="teleportlist_ClassicAden.dat" file="" version=""/>
 	<link pattern="TimeZoneData-ru.dat" file="" version=""/>
 	<link pattern="TimeZoneData_Classic-ru.dat" file="" version=""/>
 	<link pattern="TimeZoneData_ClassicAden-ru.dat" file="" version=""/>
-	<link pattern="WeaponEnchantEffectData_ClassicAden.dat" file="" version=""/>
 </list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ru_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="alchemy" size="#data" hidden="false">
+			<node name="item_id" reader="UINT" />
+			<node name="enchant" reader="UINT" />
+			<node name="main_skills" reader="UINT" />
+			<for name="main_skill_id" size="#main_skills">
+				<node name="main_id" reader="UINT" />
+				<node name="main_level" reader="UINT" />
+			</for>
+			<node name="sub_skills" reader="UINT" />
+			<for name="sub_skill_id" size="#sub_skills">
+				<node name="sub_id" reader="UINT" />
+				<node name="sub_level" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="en_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="abnormal_agathion" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<for name="offset_position" size="3">
+				<node name="offset" reader="FLOAT" />
+			</for>
+		
+			<node name="unknown_array" reader="CNTR" />
+			<for name="unknown_array" size="#unknown_array">
+				<node name="unknown_value" reader="UBYTE" />
+			</for>
+		</for>
+	</file>
+</list>

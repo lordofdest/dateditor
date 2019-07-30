@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ru_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="costume" size="#data" hidden="false">
+			<node name="costume_id" reader="UINT" />
+			<node name="costume_skill" reader="UINT" />
+			<node name="origin_type" reader="UINT" />
+			<node name="costume_preview" reader="UINT" />
+			
+			<node name="extract_fee" reader="UBYTE" />
+			<for name="extract_fee" size="#extract_fee">
+				<node name="fee_item" reader="UINT" />
+				<node name="fee_count" reader="UINT" />
+			</for>
+			
+			<wrapper name="costume_need_item">
+				<node name="need_item" reader="UINT" />
+				<node name="need_count" reader="UINT" />
+			</wrapper>
+			
+			<for name="unknown_2int" size="2"> <!-- not confirmed -->
+				<node name="unknown_int" reader="UINT" />
+			</for>
+			
+			<node name="grade" reader="UINT" />
+			
+			<node name="applycountry" reader="UBYTE" />
+			<for name="applycountry" size="#applycountry">
+				<node name="country" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

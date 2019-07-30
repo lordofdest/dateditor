@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ru_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="artifact_type_setting" size="#data" hidden="false">
+			<node name="artifact_group_id" reader="UINT" />
+			<node name="size" reader="CNTR" />
+			<for name="material_items" size="#size">
+				<node name="item" reader="USHORT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="en_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="artifact_type_setting" size="#data" hidden="false">
+			<node name="artifact_group_id" reader="UINT" />
+			<node name="size" reader="CNTR" />
+			<for name="material_items" size="#size">
+				<node name="item" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

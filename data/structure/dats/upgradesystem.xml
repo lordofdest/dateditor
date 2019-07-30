@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ru_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="upgradesystem" size="#data" hidden="false">
+			<node name="upgrade_id" reader="UINT" />
+			<wrapper name="upgrade_item">
+				<node name="upg_item" reader="UINT" />
+				<node name="upg_enchant" reader="UINT" />
+			</wrapper>
+			<node name="material_items" reader="CNTR" />
+			<for name="material_items" size="#material_items">
+				<wrapper name="upgrade_item">
+					<node name="mat_item" reader="UINT" />
+					<node name="mat_count" reader="UINT" />
+				</wrapper>
+			</for>
+			<node name="commission" reader="LONG" />
+			<wrapper name="result_item">
+				<node name="res_item" reader="UINT" />
+				<node name="res_enchant" reader="UINT" />
+			</wrapper>
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="country" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -484,4 +484,125 @@
 			<node name="Is_Use" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="235_ru_essence" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="USHORT" />
+			<node name="skill_level" reader="UCHAR" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="operate_type" reader="UCHAR" />
+			<node name="icon_hide" reader="UCHAR" />
+			<!-- TODO 0-16 -->
+			<!--
+				//активные
+				case 0: //
+				case 1: //
+				case 2: //
+				case 3: //
+				case 4: //
+				case 5:	//
+				case 6:	// Переключающиеся умения ( тоглы )
+				case 7: // Трансформации
+				case 8:	// Маг резисты 
+				//пассивки
+				case 11: // Владения пухами / шмотом
+				case 12: // Резисты
+				case 13: // Рассовые
+				case 14: // Классовые
+				case 15: // Клановые 
+				case 16: // Предметные
+		-->
+			<node name="resist_cast" reader="UCHAR" />
+			<!--
+			resist_cast=0		обычная
+			resist_cast=1		каричнивая обвотка
+			resist_cast=2		зеленая обвотка
+			resist_cast=3		синия обвотка
+			resist_cast=4		красная обвотка
+			resist_cast=5		скилы с иконками ( которые переключаются дуал кастом и тд )
+			resist_cast=6		скрытые скилы
+		-->
+			<node name="MagicType" reader="UCHAR" />
+			<!-- TODO 0-4 -->
+			<node name="mp_consume" reader="SHORT" />
+			<node name="cast_range" reader="UINT" />
+			<node name="cast_style" reader="UCHAR" />
+			<node name="hit_time" reader="FLOAT" />
+			<node name="cool_time" reader="FLOAT" />
+			<node name="reuse_delay" reader="FLOAT" />
+			<node name="effect_point" reader="UINT" />
+			<node name="is_magic" reader="UCHAR" />
+			<!--
+			is_magic=0		P ( физ )
+			is_magic=1		M ( маг )
+			is_magic=3		S ( песни / танцы )
+			is_magic=4		E ( воскришения )
+		-->
+			<node name="origin_skill" reader="SHORT" />
+			<node name="is_double" reader="UCHAR" />
+			<node name="animation" reader="UINT" />
+			<for name="animation" size="#animation">
+				<node name="param_animation" reader="MAP_INT" />
+			</for>
+			<node name="skill_visual_effect" reader="MAP_INT" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="debuff" reader="UCHAR" />
+			<node name="icon_type" reader="UCHAR" />
+			<node name="enchant_skill_level" reader="UCHAR" />
+			<node name="enchant_icon" reader="MAP_INT" />
+			<node name="hp_consume" reader="SHORT" />
+			<node name="rumble_self" reader="UCHAR" />
+			<!-- TODO -1 8 9 13 14 -->
+			<node name="rumble_target" reader="UCHAR" />
+			<!-- TODO 0 -1 10 11 -->
+		</for>
+		<node name="automatic_use" reader="CNTR" />
+		<for name="automatic_use" size="#automatic_use" hidden="false">
+			<node name="Item_id" reader="UINT" />
+			<node name="Is_Use" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="245_na" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="USHORT" />
+			<node name="skill_level" reader="UCHAR" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="icon_type" reader="UCHAR" />
+			<node name="icon_hide" reader="UCHAR" />
+			<node name="MagicType" reader="UCHAR" />
+			<node name="operate_type" reader="UCHAR" />
+			<node name="mp_consume" reader="SHORT" />
+			<node name="cast_range" reader="UINT" />
+			<node name="cast_style" reader="UCHAR" />
+			<node name="hit_time" reader="FLOAT" />
+			<node name="cool_time" reader="FLOAT" />
+			<node name="reuse_delay" reader="FLOAT" />
+			<node name="effect_point" reader="UINT" />
+			<node name="is_magic" reader="UCHAR" />
+			<node name="origin_skill" reader="SHORT" />
+			<node name="is_double" reader="UCHAR" />
+			<node name="animation" reader="UINT" />
+			<for name="animation" size="#animation">
+				<node name="param_animation" reader="MAP_INT" />
+			</for>
+			<node name="skill_visual_effect" reader="MAP_INT" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="debuff" reader="UCHAR" />
+			<node name="resist_cast" reader="UCHAR" />
+			<node name="enchant_skill_level" reader="UCHAR" />
+			<node name="enchant_icon" reader="MAP_INT" />
+			<node name="hp_consume" reader="SHORT" />
+			<node name="rumble_self" reader="UCHAR" />
+			<node name="rumble_target" reader="UCHAR" />
+		</for>
+		<node name="automatic_use" reader="CNTR" />
+		<for name="automatic_use" size="#automatic_use" hidden="false">
+			<node name="Item_id" reader="UINT" />
+			<node name="Is_Use" reader="UCHAR" />
+		</for>
+		<node name="unknown_0" reader="UCHAR" />
+	</file>
 </list>

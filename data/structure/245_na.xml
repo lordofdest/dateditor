@@ -5,7 +5,7 @@
 	<link pattern="AbilityPoint.dat" file="abilitypoint" version="kor_episodion" />
 	<link pattern="abnormaldefaulteffect.dat" file="abnormaldefaulteffect" version="ru_fafurion" />
 	<link pattern="AbnormalEdgeEffectData\.dat" file="abnormaledgeeffectdata" version="kor_ertheia" />
-	<link pattern="actionname-[\w]+\.dat" file="actionname" version="kor_helios_p3" />
+	<link pattern="actionname-[\w]+\.dat" file="actionname" version="245_na" />
 	<link pattern="AdditionalEffect.dat" file="additionaleffect" version="kor_helios_p3" />
 	<link pattern="AdditionalItemgrp.dat" file="additionalitemgrp" version="kor_helios_p3" />
 	<link pattern="AdditionalJewelEquipEffect.dat" file="additionaljewelequipeffect" version="kor_episodion" />
@@ -124,7 +124,7 @@
 	<link pattern="zonename-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
 	<!-- Classic -->
 	<link pattern="AbnormalDefaultEffect_Classic.dat" file="abnormaldefaulteffect" version="kor_ertheia" />
-	<link pattern="Actionname_Classic-[\w]+\.dat" file="actionname" version="kor_helios_p3" />
+	<link pattern="Actionname_Classic-[\w]+\.dat" file="actionname" version="245_na" />
 	<link pattern="AdditionalEffect_Classic.dat" file="additionaleffect" version="kor_helios_p3" />
 	<link pattern="AdditionalItemgrp_Classic.dat" file="additionalitemgrp" version="kor_helios_p3" />
 	<link pattern="AdditionalJewelEquipEffect_Classic.dat" file="additionaljewelequipeffect" version="kor_episodion" />
@@ -204,7 +204,7 @@
 	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="kor_helios_p3" />
 	<link pattern="Zonename_Classic-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
 	<!-- Arena -->
-	<link pattern="Actionname_Arena-[\w]+\.dat" file="actionname" version="kor_helios_p3" />
+	<link pattern="Actionname_Arena-[\w]+\.dat" file="actionname" version="245_na" />
 	<link pattern="AdditionalItemgrp_Arena.dat" file="additionalitemgrp" version="kor_helios_p3" />
 	<link pattern="AdditionalNpcGrpParts_Arena.dat" file="additionalnpcgrpparts" version="kor_infinite_odyssey" />
 	<link pattern="AlterSkillData_Arena.dat" file="alterskilldata" version="kor_lindvior" />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="245_na" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="levelup_itembonus_data" size="#data" hidden="false">
+			<node name="object_id" reader="UINT" />
+			<node name="stats" reader="CNTR" />
+			<for name="stats" size="#stats">
+				<node name="end_lv" reader="UBYTE" />
+				<node name="pattack" reader="SHORT" />
+				<node name="mattack" reader="SHORT" />
+				<node name="pdefense" reader="SHORT" />
+				<node name="mdefense" reader="SHORT" />
+				<node name="pattack_Accum" reader="SHORT" />
+				<node name="mattack_Accum" reader="SHORT" />
+				<node name="pdefense_Accum" reader="SHORT" />
+				<node name="mdefense_Accum" reader="SHORT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -140,7 +140,7 @@
 	<link pattern="ClassInfo_Classic-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
 	<link pattern="CombinationItemData_Classic.dat" file="combinationitemdata" version="ru_fafurion" />
 	<link pattern="Commandname_Classic-[\w]+\.dat" file="commandname" version="kor_lindvior" />
-	<link pattern="Costume_Classic.dat" file="costume" version="ru_fafurion" />
+	<link pattern="Costume_Classic.dat" file="costume" version="245_na" />
 	<link pattern="Costume_Collection_Classic.dat" file="costumecollection" version="ru_fafurion" />
 	<link pattern="Costume_CollectionBonus_Classic.dat" file="costumecollectionbonus" version="ru_fafurion" />
 	<link pattern="ElementalSpirit_Classic.dat" file="elementalspirit" version="245_na" />

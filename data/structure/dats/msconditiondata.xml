@@ -128,4 +128,42 @@
             </for>
         </for>
 	</file>
+	<file pattern="245_na" isSafePackage="true">
+		 <node name="data" reader="UINT" />
+        <for name="skill" size="#data" hidden="false">
+            <node name="skill_id" reader="UINT" />
+            <node name="skill_level" reader="UCHAR" />
+            <node name="skill_sublevel" reader="SHORT" />
+            <node name="data_mask" reader="SHORT" />
+            <node name="equiptype" reader="UCHAR" />
+            <node name="attackitemtype" reader="CNTR" />
+            <for name="attackitemtype" size="#attackitemtype">
+                <node name="param_attackitemtype" reader="UCHAR" />
+            </for>
+            <node name="stattype" reader="UCHAR" />
+            <node name="statpercentage" reader="UCHAR" />
+            <node name="up" reader="UCHAR" />
+            <node name="hpconsume" reader="SHORT" />
+            <node name="mpconsume1" reader="SHORT" />
+            <node name="mpconsume2" reader="SHORT" />
+            <node name="itemid" reader="UINT" />
+            <node name="itemnum" reader="SHORT" />
+            <node name="casterpriorskilllist" reader="CNTR" />
+            <for name="casterpriorskilllist" size="#casterpriorskilllist">
+                <node name="skill_id" reader="SHORT" />
+                <node name="skill_level" reader="UCHAR" />
+                <node name="skill_sublevel" reader="SHORT" />
+            </for>
+            <node name="targetpriorskilllist" reader="CNTR" />
+            <for name="targetpriorskilllist" size="#targetpriorskilllist">
+                <node name="cast_skill_id" reader="SHORT" />
+                <node name="cast_skill_level" reader="UCHAR" />
+                <node name="skill_sublevel" reader="SHORT" />
+            </for>
+            <node name="classtype" reader="CNTR" />
+            <for name="classtype" size="#classtype">
+                <node name="id" reader="UINT" />
+            </for>
+        </for>
+	</file>
 </list>

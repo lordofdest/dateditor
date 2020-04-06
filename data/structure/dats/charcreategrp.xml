@@ -39,4 +39,19 @@
 			<node name="lhand" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="245_na" isSafePackage="true">
+		<for name="Char" size="82" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+	</file>
 </list>

@@ -22,4 +22,23 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="245_na" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="elemental" size="#data" hidden="false">
+			<node name="elemental_both_id_and_level" reader="UINT" />
+			<node name="elementalnpcid" reader="UINT" />
+			<node name="elementaltype" reader="UINT" />
+			<node name="elementalgrade" reader="UINT" />
+			<node name="elementalatk" reader="UINT" />
+			<node name="elementaldef" reader="UINT" />
+			<node name="elementalcrirate" reader="UINT" />
+			<node name="elementalcripow" reader="UINT" />
+			<node name="elementalexp" reader="LONG" />
+			<node name="elementalnpcstringid" reader="CNTR" />
+			<for name="elementalnpcstringid" size="#elementalnpcstringid">
+				<node name="val1" reader="UINT" />
+				<node name="val1" reader="UINT" />
+			</for>
+		</for>
+	</file>
 </list>

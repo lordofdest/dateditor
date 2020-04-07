@@ -3,6 +3,7 @@
 	<link pattern="24hzschema.dat" file="24hzschema" version="kor_lindvior" />
 	<link pattern="Ability.dat" file="ability" version="kor_episodion" />
 	<link pattern="AbilityPoint.dat" file="abilitypoint" version="kor_episodion" />
+	<link pattern="AbnormalAgathion.dat" file="" version=""/>
 	<link pattern="abnormaldefaulteffect.dat" file="abnormaldefaulteffect" version="" />
 	<link pattern="AbnormalDefaultEffect_Classic.dat" file="abnormaldefaulteffect" version="kor_ertheia" />
 	<link pattern="AbnormalEdgeEffectData.dat" file="abnormaledgeeffectdata" version="kor_ertheia" />
@@ -26,6 +27,8 @@
 	<link pattern="AlterSkillData.dat" file="alterskilldata" version="kor_lindvior" />
 	<link pattern="AnimationCombo.dat" file="animationcombo" version="kor_helios_p2" />
 	<link pattern="AnimationCombo_Classic.dat" file="animationcombo" version="kor_helios_p2" />
+	<link pattern="ArmorGradeEffectSet.dat" file="" version=""/>
+	<link pattern="ArmorGradeLookChange.dat" file="" version=""/>
 	<link pattern="armorgrp.dat" file="armorgrp" version="kor_helios_p3" />
 	<link pattern="Armorgrp_Classic.dat" file="armorgrp" version="kor_helios_p3" />
 	<link pattern="Armorgrp_ClassicAden.dat" file="armorgrp" version="kor_helios_p3" />
@@ -42,9 +45,14 @@
 	<link pattern="Charcreategrp_Classic.dat" file="charcreategrp" version="245_na" />
 	<link pattern="Chargrp.dat" file="chargrp" version="" />
 	<link pattern="Chargrp_Classic.dat" file="chargrp" version="" />
+	<link pattern="CharHeadExgrp.dat" file="" version=""/>
 	<link pattern="classinfo-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
 	<link pattern="ClassInfo_Classic-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
 	<link pattern="ClassInfo_ClassicAden-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
+	<link pattern="ClassTree.dat" file="" version=""/>
+	<link pattern="ClassTree_Classic.dat" file="" version=""/>
+	<link pattern="ClassTreeDesc-e.dat" file="" version=""/>
+	<link pattern="ClassTreeDesc_Classic-e.dat" file="" version=""/>
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="ru_episodion" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="kor_helios_p2" />
 	<link pattern="CombinationItemData.dat" file="combinationitemdata" version="ru_fafurion" />
@@ -59,9 +67,12 @@
 	<link pattern="CubicEffectData.dat" file="cubiceffectdata" version="ru_fafurion" />
 	<link pattern="DecoNPCData_client.dat" file="deconpcdata_client" version="kor_helios" />
 	<link pattern="dualcasttypedata.dat" file="dualcasttypedata" version="kor_helios_p2" />
+	<link pattern="DyeEffect.dat" file="dyeeffect" version="en_fafurion"/>
 	<link pattern="dynamiccontentsname-[\w]+\.dat" file="dynamiccontentsname" version="kor_lindvior" />
 	<link pattern="ElementalSpirit_Classic.dat" file="elementalspirit" version="245_na" />
 	<link pattern="ElementalSpiritStat_Classic.dat" file="elementalspiritstat" version="ru_fafurion" />
+	<link pattern="EnchantedItemSkills_Classic-[\w]+\.dat" file="enchanteditemskills" version="245_na"/>
+	<link pattern="EnchantedItemSkills_ClassicAden-[\w]+\.dat" file="enchanteditemskills" version="245_na"/>
 	<link pattern="EnchantedWeaponFlowEffectData.dat" file="enchantedweaponfloweffectdata" version="" />
 	<link pattern="EnchantedWeaponFlowEffectData_Classic.dat" file="enchantedweaponfloweffectdata" version="" />
 	<link pattern="EnchantedWeaponFlowEffectData_ClassicAden.dat" file="enchantedweaponfloweffectdata" version="" />
@@ -80,6 +91,7 @@
 	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="kor_helios_p3" />
 	<link pattern="EtcItemgrp_Classic.dat" file="etcitemgrp" version="kor_helios_p3" />
 	<link pattern="EtcItemgrp_ClassicAden.dat" file="etcitemgrp" version="kor_helios_p3" />
+	<link pattern="EtcStatusData.dat" file="" version=""/>
 	<link pattern="eula-[\w]+\.dat" file="eula" version="kor_lindvior" />
 	<link pattern="EventAlarmList-[\w]+\.dat" file="eventalarmlist" version="ru_fafurion" />
 	<link pattern="EventAlarmList_Classic-[\w]+\.dat" file="eventalarmlist" version="ru_fafurion" />
@@ -98,8 +110,13 @@
 	<link pattern="FullArmorEnchantEffectData.dat" file="fullarmorenchanteffectdata" version="kor_episodion" />
 	<link pattern="GameDataBase-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
 	<link pattern="GameDataBase_Classic-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
+	<link pattern="GamePlayData_Classic.dat" file="gameplaydata" version="245_na"/>
+	<link pattern="GamePlayData_ClassicAden.dat" file="gameplaydata" version="245_na"/>
 	<link pattern="gametip-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
 	<link pattern="GameTip_Classic-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
+	<link pattern="GCShop_Classic.dat" file="" version=""/>
+	<link pattern="GCShop_ClassicAden.dat" file="" version=""/>
+	<link pattern="GeneralEffectName.dat" file="generaleffectname" version="245_na"/>
 	<link pattern="goodsicon.dat" file="goodsicon" version="kor_helios_p2" />
 	<link pattern="hairaccessorylocgrp.dat" file="hairaccessorylocgrp" version="kor_helios_p2" />
 	<link pattern="Hairaccessorylocgrp_Classic.dat" file="hairaccessorylocgrp" version="kor_helios_p2" />
@@ -122,8 +139,19 @@
 	<link pattern="ItemStatData_Classic.dat" file="itemstatdata" version="kor_helios_p3" />
 	<link pattern="ItemStatData_ClassicAden.dat" file="itemstatdata" version="kor_helios_p3" />
 	<link pattern="L2GameDataName.dat" file="l2gamedataname" version="kor_helios_p2" />
+	<link pattern="LCoinShopBanner_Classic-[\w]+\.dat" file="lcoinshopbanner" version="245_na"/>
+	<link pattern="LCoinShopBanner_ClassicAden-[\w]+\.dat" file="lcoinshopbanner" version="245_na"/>
+	<link pattern="LCoinShopProduct_Classic-[\w]+\.dat" file="lcoinshopproduct" version="245_na"/>
+	<link pattern="LCoinShopProduct_ClassicAden-[\w]+\.dat" file="lcoinshopproduct" version="270"/>
+	<link pattern="LetterCollectData.dat" file="" version=""/>
+	<link pattern="LetterCollectData_Classic.dat" file="" version=""/>
+	<link pattern="LetterCollectData_ClassicAden.dat" file="" version=""/>
 	<link pattern="LevelUpItemBonusData_Classic.dat" file="levelupitembonusdata" version="245_na"/>
 	<link pattern="LevelUpItemBonusData_ClassicAden.dat" file="levelupitembonusdata" version="245_na"/>
+	<link pattern="LinkedAnimData.dat" file="" version=""/>
+	<link pattern="Localize.dat" file="" version=""/>
+	<link pattern="Localize_Classic.dat" file="" version=""/>
+	<link pattern="Localize_ClassicAden.dat" file="" version=""/>
 	<link pattern="logongrp.dat" file="logongrp" version="kor_lindvior" />
 	<link pattern="Logongrp_Classic.dat" file="logongrp" version="kor_lindvior" />
 	<link pattern="LollyCubeData.dat" file="lollycubedata" version="kor_ertheia" />
@@ -169,6 +197,8 @@
 	<link pattern="ProductName_Classic-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_Classic-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_ClassicAden-[\w]+\.dat" file="productname" version="kor_helios_p5" />
+	<link pattern="PvpbookRequiredItem_Classic.dat" file="pvpbookrequireditem" version="245_na"/>
+	<link pattern="PvpbookRequiredItem_ClassicAden.dat" file="pvpbookrequireditem" version="245_na"/>
 	<link pattern="questmarkconditiondata.dat" file="questmarkconditiondata" version="kor_lindvior" />
 	<link pattern="QuestMarkConditionData_Classic.dat" file="questmarkconditiondata" version="kor_lindvior" />
 	<link pattern="questname-[\w]+\.dat" file="questname" version="ru_fafurion" />
@@ -177,10 +207,15 @@
 	<link pattern="raiddata-[\w]+\.dat" file="raiddata" version="245_na" />
 	<link pattern="RaidData_Classic-[\w]+\.dat" file="raiddata" version="245_na" />
 	<link pattern="RaidData_ClassicAden-[\w]+\.dat" file="raiddata" version="245_na" />
+	<link pattern="RankingSystemData.dat" file="rankingsystemdata" version="245_na"/>
+	<link pattern="RankingSystemData_Classic.dat" file="rankingsystemdata" version="245_na"/>
+	<link pattern="RankingSystemData_ClassicAden.dat" file="rankingsystemdata" version="245_na"/>
 	<link pattern="recipe-c.dat" file="recipe-c" version="kor_lindvior" />
 	<link pattern="Recipe.dat" file="recipe" version="kor_ertheia" />
 	<link pattern="Recipe_Classic.dat" file="recipe" version="kor_ertheia" />
 	<link pattern="Recipe_ClassicAden.dat" file="recipe" version="kor_ertheia" />
+	<link pattern="ReplaceSkillIcon_Classic.dat" file="" version=""/>
+	<link pattern="ReplaceSkillIcon_ClassicAden.dat" file="" version=""/>
 	<link pattern="RideData.dat" file="ridedata" version="" />
 	<link pattern="RideData_Classic.dat" file="ridedata" version="" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="" />
@@ -238,6 +273,7 @@
 	<link pattern="usmmoviedata-[\w]+\.dat" file="usmmoviedata" version="kor_lindvior" />
 	<link pattern="variationeffectgrp-[\w]+\.dat" file="variationeffectgrp" version="kor_grand_crusade" />
 	<link pattern="variationeffectgrp_Classic-[\w]+\.dat" file="variationeffectgrp" version="kor_grand_crusade" />
+	<link pattern="VehiclePartsGrp.dat" file="" version=""/>
 	<link pattern="vehiclepartsgrp.dat" file="vehiclepartsgrp" version="kor_helios_p3" />
 	<link pattern="warningnotice-[\w]+\.dat" file="warningnotice" version="kor_lindvior" />
 	<link pattern="weaponenchanteffectdata.dat" file="weaponenchanteffectdata" version="en_fafurion" />

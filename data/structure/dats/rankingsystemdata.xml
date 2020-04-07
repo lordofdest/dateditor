@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="245_na" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="rankingsystem" size="#data" hidden="false">
+			<node name="type" reader="UINT" />
+			<node name="grouptype" reader="UINT" />
+			<node name="grade" reader="UINT" />
+			<wrapper name="gradescope">
+				<node name="min" reader="UINT" />
+				<node name="max" reader="UINT" />
+			</wrapper>
+			<node name="rewardskillID" reader="UINT" />
+		</for>
+	</file>
+</list>

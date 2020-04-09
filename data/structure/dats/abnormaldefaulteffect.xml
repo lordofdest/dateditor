@@ -114,4 +114,28 @@
 			<node name="val" reader="UBYTE" />
 		</for-->
 	</file>
+	<file pattern="245_na" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="abnormal_default_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="effect_name" reader="ASCF" />
+			<node name="is_screen_effect" reader="USHORT" />
+			<node name="is_attach_to_ground" reader="USHORT" />
+			<node name="attach_bone_name" reader="MAP_INT" />
+			<node name="attach_type" reader="UINT" />
+			<wrapper name="offset_position">
+				<node name="var1" reader="FLOAT" />
+				<node name="var2" reader="FLOAT" />
+				<node name="var3" reader="FLOAT" />
+			</wrapper>
+			<node name="is_scaling_by_cylinder" reader="UINT" />
+			<node name="effect_scale" reader="FLOAT" />
+			<node name="posteffect_id" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<node name="unk3" reader="UINT" />
+		</for>
+
+		<node name="val" reader="UBYTE" />
+	</file>
 </list>

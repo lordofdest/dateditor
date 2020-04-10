@@ -294,4 +294,29 @@
 			<node name="Is_Use" reader="UINT" />
 		</for>
 	</file>
+		<file pattern="270_ru" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="MAP_INT" />
+			<node name="additionalname" reader="ASCF" />
+			<node name="description" reader="ASCF" />
+			<node name="popup" reader="SHORT" />
+			<node name="default_action" reader="ASCF" />
+			<node name="use_order" reader="UINT" />
+			<node name="name_class" reader="SHORT" />
+			<node name="color" reader="UCHAR" />
+			<node name="Tooltip_Texture" reader="MAP_INT" />
+			<node name="Tooltip_BG_Texture" reader="MAP_INT" />
+			<node name="Tooltip_BG_Texture_Compare" reader="MAP_INT" />
+			<node name="Tooltip_BG_Deco_Texture" reader="MAP_INT" />
+			<node name="is_trade" reader="UCHAR" />
+			<node name="is_drop" reader="UCHAR" />
+			<node name="is_destruct" reader="UCHAR" />
+			<node name="is_private_store" reader="UCHAR" />
+			<node name="keep_type" reader="UCHAR" />
+			<node name="is_npctrade" reader="UCHAR" />
+			<node name="is_commission_store" reader="UCHAR" />
+		</for>
+	</file>
 </list>

@@ -110,8 +110,8 @@
 	<link pattern="FullArmorEnchantEffectData.dat" file="fullarmorenchanteffectdata" version="kor_episodion" />
 	<link pattern="GameDataBase-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
 	<link pattern="GameDataBase_Classic-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
-	<link pattern="GamePlayData_Classic.dat" file="gameplaydata" version="245_na"/>
-	<link pattern="GamePlayData_ClassicAden.dat" file="gameplaydata" version="245_na"/>
+	<link pattern="GamePlayData_Classic.dat" file="gameplaydata" version="270"/>
+	<link pattern="GamePlayData_ClassicAden.dat" file="gameplaydata" version="270"/>
 	<link pattern="gametip-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
 	<link pattern="GameTip_Classic-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
 	<link pattern="GCShop_Classic.dat" file="" version=""/>
@@ -132,17 +132,17 @@
 	<link pattern="item_baseinfo.dat" file="item_baseinfo" version="235_ru_essence" />
 	<link pattern="item_baseinfo_Classic.dat" file="item_baseinfo" version="235_ru_essence" />
 	<link pattern="item_baseinfo_ClassicAden.dat" file="item_baseinfo" version="235_ru_essence" />
-	<link pattern="itemname-[\w]+\.dat" file="itemname" version="kor_grand_crusade_p3" />
-	<link pattern="ItemName_Classic-[\w]+\.dat" file="itemname" version="kor_grand_crusade_p3" />
-	<link pattern="ItemName_ClassicAden-[\w]+\.dat" file="itemname" version="kor_grand_crusade_p3" />
+	<link pattern="itemname-[\w]+\.dat" file="itemname" version="270_ru" />
+	<link pattern="ItemName_Classic-[\w]+\.dat" file="itemname" version="270_ru" />
+	<link pattern="ItemName_ClassicAden-[\w]+\.dat" file="itemname" version="270_ru" />
 	<link pattern="itemstatdata.dat" file="itemstatdata" version="kor_helios_p3" />
 	<link pattern="ItemStatData_Classic.dat" file="itemstatdata" version="kor_helios_p3" />
 	<link pattern="ItemStatData_ClassicAden.dat" file="itemstatdata" version="kor_helios_p3" />
 	<link pattern="L2GameDataName.dat" file="l2gamedataname" version="kor_helios_p2" />
 	<link pattern="LCoinShopBanner_Classic-[\w]+\.dat" file="lcoinshopbanner" version="245_na"/>
 	<link pattern="LCoinShopBanner_ClassicAden-[\w]+\.dat" file="lcoinshopbanner" version="245_na"/>
-	<link pattern="LCoinShopProduct_Classic-[\w]+\.dat" file="lcoinshopproduct" version="245_na"/>
-	<link pattern="LCoinShopProduct_ClassicAden-[\w]+\.dat" file="lcoinshopproduct" version="245_na"/>
+	<link pattern="LCoinShopProduct_Classic-[\w]+\.dat" file="lcoinshopproduct" version="270"/>
+	<link pattern="LCoinShopProduct_ClassicAden-[\w]+\.dat" file="lcoinshopproduct" version="270"/>
 	<link pattern="LetterCollectData.dat" file="" version=""/>
 	<link pattern="LetterCollectData_Classic.dat" file="" version=""/>
 	<link pattern="LetterCollectData_ClassicAden.dat" file="" version=""/>

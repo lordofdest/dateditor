@@ -3,8 +3,8 @@
 	<link pattern="24hzschema.dat" file="24hzschema" version="kor_lindvior" />
 	<link pattern="Ability.dat" file="ability" version="kor_episodion" />
 	<link pattern="AbilityPoint.dat" file="abilitypoint" version="kor_episodion" />
-	<link pattern="AbnormalAgathion.dat" file="" version=""/>
-	<link pattern="abnormaldefaulteffect.dat" file="abnormaldefaulteffect" version="" />
+	<link pattern="AbnormalAgathion.dat" file="abnormalagathion" version="en_fafurion"/>
+	<link pattern="abnormaldefaulteffect.dat" file="abnormaldefaulteffect" version="245_na" />
 	<link pattern="AbnormalDefaultEffect_Classic.dat" file="abnormaldefaulteffect" version="kor_ertheia" />
 	<link pattern="AbnormalEdgeEffectData.dat" file="abnormaledgeeffectdata" version="kor_ertheia" />
 	<link pattern="actionname-[\w]+\.dat" file="actionname" version="245_na" />
